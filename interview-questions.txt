@@ -12,3 +12,7 @@ If you hire me, it will be great platform to showcase my skills, the goals i set
 
 Reason behind leaving your last job?
 In order to enhance my skills set. I am looking for better opportunities.
+
+
+npm i depcheck
+npm i npm-check-updates
