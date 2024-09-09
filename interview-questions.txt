@@ -16,3 +16,51 @@ In order to enhance my skills set. I am looking for better opportunities.
 
 npm i depcheck
 npm i npm-check-updates
+
+
+/*--- Dynamically call ---*/
+
+import { useEffect, useState } from "react";
+import axios from "axios";
+
+   const [uniData, setUniData] = useState([]);
+
+    const getUnilogo = async () => {
+        await axios.get('/api/universities')
+            .then((result) => {
+                setUniData(result.data.result)
+            }).catch((err) => {
+
+            })
+    }
+    useEffect(() => {
+        getUnilogo()
+        return () => {
+
+        };
+    }, []);
+{
+   uniData && (
+     <Slider className="log-slide item-center flex" {...pertnersetting}>
+          {
+            uniData.map((item) => (
+                <div
+                    key={item?.id}
+                      style={{ 
+                        display: 'flex', 
+                          justifyContent: 'center', 
+                            alignItems: 'center', 
+                              }}
+                              >
+                              <Image
+                               	src={item?.logo}
+                                 width={163}
+                                 height={63}
+                                 alt={item?.name || "University logo"}
+                                 />
+                                 </div>
+                                 ))
+                                }
+                            </Slider>
+                        )
+                    }
