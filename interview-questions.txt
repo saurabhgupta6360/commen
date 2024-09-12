@@ -1,3 +1,26 @@
+
+Q - Tell me something about yourself?
+my name is saurabh with good track-record in frontend developer, I am distinguished for my ability of quick problam solving and bug free coding. My hobbies are reading IT related magazine, staying up to date with all recent technology and improving myself with peace of changing time. my strong point is that i can learn fast.
+
+Q - Why did you leave your previous organization?
+I'm looking for an opportunity to advance my career. The company you worked for didn't offer enough professional development opportunities. I left my last job because i wanted a new and fresh challenge with an innovative and forward-thinking company where my skills, knowledge, and experience would be put to good use.
+
+Q - Tell your strengths and weaknesses
+Good team player, i'm always ready to take up challenges, confidence, good leadership skills.
+weaknesses -  i m very workaholic.
+
+Q - Where do you see yourself in next years?
+Career paths for the position. Training and development opportunities. 
+proffesnal commnication work on.
+Gole - Next 5 years working on 10 big project.
+
+Q - Why should we hire you?
+show that you have skills and experience to do the job and deliver great results. You never know what other candidates offer to the company. I'm good team leader. i'm perfect to work with this envirement. I'm perfect person to ready that overtime.
+
+
+
+
+
 What is your strength?
 I am a quick learner and a great team player.
 
@@ -16,7 +39,6 @@ In order to enhance my skills set. I am looking for better opportunities.
 
 npm i depcheck
 npm i npm-check-updates
-
 
 /*--- Dynamically call ---*/
 
